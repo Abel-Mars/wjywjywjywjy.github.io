@@ -1,41 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>try use tags</title>
-    <url>/wjywjywjywjy.github.io/2020/03/25/try-use-tags/</url>
-    <content><![CDATA[<p>In this blog I will use tags</p>
-<a id="more"></a>
-<p>can you see my tags in the top of my blog<br>wow its so cool<br>why don’t we write blog every day?</p>
-]]></content>
-      <tags>
-        <tag>tags</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>try to use more</title>
-    <url>/wjywjywjywjy.github.io/2020/03/23/try-to-use-more/</url>
-    <content><![CDATA[<p>this is my new blog<br>In this blog I will continue try something new </p>
-<a id="more"></a>
-<p>ok,I think you can’t see fellow words<br>becouse I use the tip (more)<br>OK after this I will try to solve the big problem<br>why can’t we refresh my blog at time?</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Try to use hexo new post way to create a new  blog</title>
-    <url>/wjywjywjywjy.github.io/2020/03/23/Try-to-use-hexo-new-post-way-to-create-a-new-blog/</url>
-    <content><![CDATA[<p>I am trying a new way to create a blog</p>
-<a id="more"></a>
-<p>This way I use code “hexo new post xxxxx” to create a new .md file<br>Today I try too mach ways to make my blog more useful<br>I am so tired<br>I think I should sleep early to have a good dream<br>But I sleep too early<br>And now I got up !<br>oh ,how can I speend my beautiful night!<br>so I’ll do my blog after this blog<br>next I’ll try how to use markdown to edit my words.<br>Ok see you next blog!</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>My First blog</title>
-    <url>/wjywjywjywjy.github.io/2020/03/23/my_first_bog/</url>
-    <content><![CDATA[<p>this is my first try for my blogs.</p>
-<a id="more"></a>
-
-<p>can you see me ?</p>
-<p>I want to try more kind of themes after this.</p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>try use tags</title>
+      <link href="/wjywjywjywjy.github.io/2020/03/25/try-use-tags/"/>
+      <url>/wjywjywjywjy.github.io/2020/03/25/try-use-tags/</url>
+      
+        <content type="html"><![CDATA[<p>In this blog I will use tags</p><a id="more"></a><p>can you see my tags in the top of my blog<br>wow its so cool<br>why don’t we write blog every day?</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> tags </tag>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>try to use more</title>
+      <link href="/wjywjywjywjy.github.io/2020/03/23/try-to-use-more/"/>
+      <url>/wjywjywjywjy.github.io/2020/03/23/try-to-use-more/</url>
+      
+        <content type="html"><![CDATA[<p>this is my new blog<br>In this blog I will continue try something new </p><a id="more"></a><p>ok,I think you can’t see fellow words<br>becouse I use the tip (more)<br>OK after this I will try to solve the big problem<br>why can’t we refresh my blog at time?</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My First blog</title>
+      <link href="/wjywjywjywjy.github.io/2020/03/23/my_first_bog/"/>
+      <url>/wjywjywjywjy.github.io/2020/03/23/my_first_bog/</url>
+      
+        <content type="html"><![CDATA[<p>this is my first try for my blogs.</p><a id="more"></a><p>can you see me ?</p><p>I want to try more kind of themes after this.</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Try to use hexo new post way to create a new  blog</title>
+      <link href="/wjywjywjywjy.github.io/2020/03/23/Try-to-use-hexo-new-post-way-to-create-a-new-blog/"/>
+      <url>/wjywjywjywjy.github.io/2020/03/23/Try-to-use-hexo-new-post-way-to-create-a-new-blog/</url>
+      
+        <content type="html"><![CDATA[<p>I am trying a new way to create a blog</p><a id="more"></a><p>This way I use code “hexo new post xxxxx” to create a new .md file<br>Today I try too mach ways to make my blog more useful<br>I am so tired<br>I think I should sleep early to have a good dream<br>But I sleep too early<br>And now I got up !<br>oh ,how can I speend my beautiful night!<br>so I’ll do my blog after this blog<br>next I’ll try how to use markdown to edit my words.<br>Ok see you next blog!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
