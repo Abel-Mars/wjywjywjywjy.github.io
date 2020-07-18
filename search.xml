@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>try use tags</title>
-    <url>/wjywjywjywjy.github.io/2020/03/25/try-use-tags/</url>
-    <content><![CDATA[<p>In this blog I will use tags</p>
-<a id="more"></a>
-<p>can you see my tags in the top of my blog<br>wow its so cool<br>why don’t we write blog every day?</p>
-]]></content>
-      <tags>
-        <tag>tags</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>try to use more</title>
-    <url>/wjywjywjywjy.github.io/2020/03/23/try-to-use-more/</url>
-    <content><![CDATA[<p>this is my new blog<br>In this blog I will continue try something new </p>
-<a id="more"></a>
-<p>ok,I think you can’t see fellow words<br>becouse I use the tip (more)<br>OK after this I will try to solve the big problem<br>why can’t we refresh my blog at time?</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>My First blog</title>
+    <title>我的第一篇Blog</title>
     <url>/wjywjywjywjy.github.io/2020/03/23/my_first_bog/</url>
     <content><![CDATA[<p>this is my first try for my blogs.</p>
 <a id="more"></a>
 
-<p>can you see me ?</p>
-<p>I want to try more kind of themes after this.</p>
+<p>历时4个月，爷终于有时间开始弄博客了，这个博客主要是为了记录成长</p>
+<p>算法+项目+思考+规划</p>
+<p>暂时就说这些吧，先去学md了。</p>
 ]]></content>
+      <tags>
+        <tag>思考</tag>
+        <tag>总结</tag>
+      </tags>
   </entry>
 </search>
