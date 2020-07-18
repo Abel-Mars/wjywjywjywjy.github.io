@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JAVA数组长度和字符串长度的比较</title>
+    <url>/wjywjywjywjy.github.io/2020/07/18/JAVA%E6%95%B0%E7%BB%84%E9%95%BF%E5%BA%A6%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%95%BF%E5%BA%A6%E7%9A%84%E6%AF%94%E8%BE%83/</url>
+    <content><![CDATA[<h2 id="JAVA数组长度和字符串长度的比较"><a href="#JAVA数组长度和字符串长度的比较" class="headerlink" title="JAVA数组长度和字符串长度的比较"></a>JAVA数组长度和字符串长度的比较</h2><p>很多次写算法题都搞不清楚到底数组长度是arr.length还是arr.length()</p>
+<p>如果只是要知道答案的话，那么结果如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];</span><br><span class="line">System.out.println(arr.length);<span class="comment">// 获取数组的长度</span></span><br><span class="line"></span><br><span class="line">String str = <span class="string">"沉默王二"</span>;</span><br><span class="line">System.out.println(str.length());<span class="comment">// 获取字符串的长度`</span></span><br></pre></td></tr></table></figure>
+<p>如果是要知道原理的请继续读下去：</p>
+<a id="more"></a>
+<p>我们知道其实数组的长度其实是确定的（元素的个数是确定的），我们来看初始化：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// new</span></span><br><span class="line"><span class="keyword">int</span>[] arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">4</span>];</span><br><span class="line">arr[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">arr[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">arr[<span class="number">2</span>] = <span class="number">2</span>;</span><br><span class="line">arr[<span class="number">3</span>] = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#123;&#125;</span></span><br><span class="line"><span class="keyword">int</span> [] arr1 = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;;</span><br></pre></td></tr></table></figure>
+<p>数组长度确实是定值，所以我们直接用一个length字段来表示长度，而不再定义一个方法。</p>
+<p>那么为什么String类是length()方法呢？</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Returns the length of this string.</span></span><br><span class="line"><span class="comment"> * The length is equal to the number of Unicode</span></span><br><span class="line"><span class="comment"> * code units in the string.</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">length</span><span class="params">()</span> </span>&#123;</span><br><span class="line"> <span class="keyword">return</span> value.length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>因为value本身是private的，所以需要String类提供一个pubic的方法来访问长度。</p>
+]]></content>
+      <tags>
+        <tag>JAVA基础</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇Blog</title>
     <url>/wjywjywjywjy.github.io/2020/03/23/my_first_bog/</url>
     <content><![CDATA[<p>this is my first try for my blogs.</p>
